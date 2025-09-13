@@ -94,7 +94,7 @@ refactor: true
                   <span class="categories">
                     {% for category in post.categories %}
                       {{ category }}
-                      {%- unless forloop.last -%},{%- endunless -%}
+                      {%- unless forloop.last -%}&nbsp;-{%- endunless -%}
                     {% endfor %}
                   </span>
                 {% endif %}
