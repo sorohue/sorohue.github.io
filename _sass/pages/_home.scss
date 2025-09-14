@@ -133,14 +133,14 @@
 
 .pag .pagination {
   color: var(--text-color);
-  font-family: Pretendard;
+  font-family: Pretendard, sans-serif;
   justify-content: space-evenly;
   backdrop-filter: blur(6px); /* 블러 */
   border-radius: 12px;        /* pill 형태 */
   padding: 0.3rem 0.6rem;
-  border: 1px solid rgb(200, 200, 200, 40%);
+  border: 1px solid rgb(200 200 200 / 0.4);
   pointer-events: auto;
-  
+
   @include bp.lg {
     font-size: 0.85rem;
     justify-content: center;
