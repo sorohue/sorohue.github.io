@@ -128,13 +128,12 @@
 
 .pag.at-end {
   position: fixed;
-  /* 스크롤에 따라 bottom 조정: JS에서 직접 처리 */
-  transition: none
+  transition: none;
 }
 
 .pag .pagination {
   color: var(--text-color);
-  font-family: Pretendard, Light;
+  font-family: 'Pretendard';
   justify-content: space-evenly;
   backdrop-filter: blur(6px); /* 블러 */
   border-radius: 12px;        /* pill 형태 */
