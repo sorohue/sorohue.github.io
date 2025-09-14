@@ -104,11 +104,43 @@
   }
 } /* #post-list */
 
-.pagination {
-  color: var(--text-color);
-  font-family: Lato, sans-serif;
-  justify-content: space-evenly;
+.pag {
+  position: fixed;
+  bottom: -80px; /* 기본은 화면 아래 숨김 */
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+  pointer-events: none;
+  transition: bottom 0.3s ease-in-out;
+}
 
+/* 상태 */
+.pag.show {
+  bottom: -20px;
+  
+}
+
+.pag.active {
+  bottom: 20px;
+}
+
+.pag.at-end {
+  position: fixed;
+  /* 스크롤에 따라 bottom 조정: JS에서 직접 처리 */
+  transition: none
+}
+
+.pag .pagination {
+  color: var(--text-color);
+  font-family: Pretendard, Light;
+  justify-content: space-evenly;
+  backdrop-filter: blur(6px); /* 블러 */
+  border-radius: 12px;        /* pill 형태 */
+  padding: 0.3rem 0.6rem;
+  border: 1px solid rgba(200, 200, 200, 0.4);
+  pointer-events: auto;
   @include bp.lg {
     font-size: 0.85rem;
     justify-content: center;

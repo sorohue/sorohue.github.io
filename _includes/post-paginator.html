@@ -1,6 +1,6 @@
 <!-- The paginator for post list on HomgPage. -->
 
-<nav aria-label="Page Navigation">
+<nav aria-label="Page Navigation" class="pag">
   <ul class="pagination align-items-center mt-4 mb-0">
     <!-- left arrow -->
     {% if paginator.previous_page %}
@@ -88,4 +88,65 @@
     </li>
   </ul>
 </nav>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const pag = document.querySelector(".pag");
+  let scrollTimeout;
+
+  const footerOffset = 80; // footer 위 여백(px)
+
+  function handleScroll() {
+    const docHeight = document.body.scrollHeight;
+    const winHeight = window.innerHeight;
+    const scrollPos = window.scrollY + winHeight;
+    const distanceToBottom = docHeight - scrollPos;
+
+    if (distanceToBottom <= footerOffset + 20) {
+      // at-end 상태
+      pag.classList.add("at-end");
+      pag.classList.remove("show");
+      pag.classList.remove("active");
+
+      // 트랜지션 제거
+      pag.style.transition = "none";
+      pag.style.bottom = footerOffset - distanceToBottom + "px";
+      return;
+    } else {
+      // at-end 해제
+      if (pag.classList.contains("at-end")) {
+        // show 상태로 돌아갈 때도 트랜지션 없음
+        pag.style.transition = "none";
+        // 다음 프레임에서 transition 복원
+        requestAnimationFrame(() => {
+          pag.style.transition = "bottom 0.3s ease-in-out";
+        });
+      }
+      pag.classList.remove("at-end");
+      pag.style.bottom = "";
+    }
+
+    // 스크롤 중 → show
+    pag.classList.add("show");
+    clearTimeout(scrollTimeout);
+
+    scrollTimeout = setTimeout(() => {
+      pag.classList.remove("show");
+    }, 500);
+  }
+
+  // 마우스 하단 근처 → active
+  window.addEventListener("mousemove", (e) => {
+    if (pag.classList.contains("at-end")) return;
+
+    const threshold = window.innerHeight - 80;
+    if (e.clientY > threshold) {
+      pag.classList.add("active");
+    } else {
+      pag.classList.remove("active");
+    }
+  });
+
+  window.addEventListener("scroll", handleScroll);
+});
+</script>
 <!-- .pagination -->
