@@ -104,42 +104,10 @@
   }
 } /* #post-list */
 
-.pag {
-  position: fixed;
-  bottom: -80px; /* 기본은 화면 아래 숨김 */
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  z-index: 1000;
-  pointer-events: none;
-  transition: bottom 0.3s ease-in-out;
-}
-
-/* 상태 */
-.pag.show {
-  bottom: -20px;
-  
-}
-
-.pag.active {
-  bottom: 20px;
-}
-
-.pag.at-end {
-  position: fixed;
-  transition: none;
-}
-
-.pag .pagination {
+.pagination {
   color: var(--text-color);
-  font-family: Pretendard, sans-serif;
+  font-family: Lato, sans-serif;
   justify-content: space-evenly;
-  backdrop-filter: blur(6px); /* 블러 */
-  border-radius: 12px;        /* pill 형태 */
-  padding: 0.3rem 0.6rem;
-  border: 1px solid rgb(200 200 200 / 40%);
-  pointer-events: auto;
 
   @include bp.lg {
     font-size: 0.85rem;
