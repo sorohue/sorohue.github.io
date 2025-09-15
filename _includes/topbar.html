@@ -24,6 +24,13 @@
           {% elsif forloop.last %}
             {% if page.collection == 'tabs' %}
               <span>{{ site.data.locales[include.lang].tabs[item] | default: page.title }}</span>
+            {% elsif page.layout == 'tag' %}
+              {% if page.lang == "ko-KR" or site.lang == "ko-KR" %}
+                {% assign label = site.data.tagmap[page.title] | default: page.title %}
+              {% else %}
+                {% assign label = page.title %}
+              {% endif %}
+              <span>{{ label }}</span>
             {% else %}
               <span>{{ page.title }}</span>
             {% endif %}

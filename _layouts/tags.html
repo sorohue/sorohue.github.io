@@ -12,9 +12,15 @@ layout: page
   {% assign sorted_tags = tags | sort_natural %}
 
   {% for t in sorted_tags %}
+    
     <div>
+      {% if page.lang == "ko-KR" or site.lang == "ko-KR" %}
+        {% assign label = site.data.tagmap[t] | default: t %}
+      {% else %}
+        {% assign label = t %}
+      {% endif %}
       <a class="tag" href="{{ t | slugify | url_encode | prepend: '/tags/' | append: '/' | relative_url }}">
-        {{ t -}}
+        {{ label -}}
         <span class="text-muted">{{ site.tags[t].size }}</span>
       </a>
     </div>

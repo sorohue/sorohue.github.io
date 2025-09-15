@@ -8,7 +8,12 @@ layout: page
 <div id="page-tag">
   <h1 class="ps-lg-2">
     <i class="fa fa-tag fa-fw text-muted"></i>
-    {{ page.title }}
+    {% if page.lang == "ko-KR" or site.lang == "ko-KR" %}
+      {% assign label = site.data.tagmap[page.title] | default: page.title %}
+    {% else %}
+      {% assign label = page.title %}
+    {% endif %}
+    {{ label }}
     <span class="lead text-muted ps-2">{{ page.posts | size }}</span>
   </h1>
   <ul class="content ps-0">
