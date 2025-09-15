@@ -39,7 +39,7 @@
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       {% for tag_name in trending_tags %}
         {% assign url = tag_name | slugify | url_encode | prepend: '/tags/' | append: '/' %}
-        {% if page.lang == "ko-KR" or site.lang == "ko-KR" %}
+        {% if page.lang == "ko-KR" or site.lang == "ko-KR" or html.lang == "ko-KR" %}
           {% assign label = site.data.tagmap[tag_name] | default: tag_name %}
         {% else %}
           {% assign label = tag_name %}

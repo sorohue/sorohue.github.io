@@ -14,7 +14,7 @@ layout: page
   {% for t in sorted_tags %}
     
     <div>
-      {% if page.lang == "ko-KR" or site.lang == "ko-KR" %}
+      {% if page.lang == "ko-KR" or site.lang == "ko-KR" or html.lang == "ko-KR" %}
         {% assign label = site.data.tagmap[t] | default: t %}
       {% else %}
         {% assign label = t %}
