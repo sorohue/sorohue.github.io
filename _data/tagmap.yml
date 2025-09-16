@@ -22,6 +22,7 @@ dp: DP
 etc: 기타
 euler characteristic: 오일러 지표 χ
 fft: FFT
+flow: 플로우
 functional graph: 함수형 그래프
 game theory: 게임 이론
 generating function: 생성 함수
