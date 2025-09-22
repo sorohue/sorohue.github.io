@@ -14,7 +14,8 @@
         {
           "title": "Description",
           "name": "description",
-          "type": "string"
+          "type": "string",
+          "default": "sorohue가 PS하는 블로그"
         },
         {
           "title": "Publishing date",
@@ -22,7 +23,7 @@
           "type": "datetime",
           "default": "{{now}}",
           "isPublishDate": true
-        },
+        },      
         {
           "title": "Content preview",
           "name": "preview",
@@ -42,6 +43,18 @@
           "title": "Categories",
           "name": "categories",
           "type": "categories"
+        },
+        {
+          "title": "toc",
+          "name": "toc",
+          "type": "boolean",
+          "default": "true"
+        },
+        {
+          "title": "toc_sticky",
+          "name": "toc_sticky",
+          "type": "boolean",
+          "default": "true"
         }
       ]
     }
