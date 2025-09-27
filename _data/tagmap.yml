@@ -62,7 +62,7 @@ segtree: 세그먼트 트리
 simulation: 시뮬레이션
 smaller to larger: 작은 집합에서 큰 집합으로 합치는 테크닉
 sorting: 정렬
-sos dp: 합집합 DP (Sum Over Subsets; SOS)
+sos dp: 부분집합의 합 DP (Sum Over Subsets; SOS)
 sparse table: 희소 배열
 splay tree: 스플레이 트리
 sprague grundy: 스프라그-그런디 정리
