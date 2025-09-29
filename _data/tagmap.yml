@@ -22,6 +22,7 @@ dfs: 깊이 우선 탐색
 differential cryptanalysis: 차분 공격
 dijkstra: 다익스트라
 dp: DP
+egcd: 확장 유클리드 호제법
 etc: 기타
 euler characteristic: 오일러 지표 χ
 fft: FFT
@@ -50,6 +51,7 @@ mst: 최소 스패닝 트리
 number theory: 정수론
 odc: 오프라인 동적 연결성
 offline queries: 오프라인 쿼리
+pbs: 병렬 이분 탐색
 permutation cycle decomposition: 순열 사이클 분할
 pigeonhole: 비둘기집 원리
 precomputation: 전처리
