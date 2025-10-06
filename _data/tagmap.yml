@@ -22,6 +22,7 @@ dfs: 깊이 우선 탐색
 differential cryptanalysis: 차분 공격
 dijkstra: 다익스트라
 dp: DP
+duality: 쌍대성
 egcd: 확장 유클리드 호제법
 etc: 기타
 euler characteristic: 오일러 지표 χ
@@ -54,6 +55,7 @@ offline queries: 오프라인 쿼리
 pbs: 병렬 이분 탐색
 permutation cycle decomposition: 순열 사이클 분할
 pigeonhole: 비둘기집 원리
+planar graph: 평면 그래프
 precomputation: 전처리
 prefix sum: 누적 합
 priority queue: 우선순위 큐
