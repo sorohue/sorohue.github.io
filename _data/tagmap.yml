@@ -1,4 +1,5 @@
 ad hoc: 애드 혹
+aho corasick: 아호-코라식
 backtracking: 백트래킹
 bcc: 이중 연결 요소
 bfs: 너비 우선 탐색
@@ -60,6 +61,7 @@ precomputation: 전처리
 prefix sum: 누적 합
 priority queue: 우선순위 큐
 probability: 확률론
+queue: 큐
 regex: 정규 표현식
 rope: 로프
 segtree: 세그먼트 트리
@@ -70,6 +72,7 @@ sos dp: 부분집합의 합 DP (Sum Over Subsets; SOS)
 sparse table: 희소 배열
 splay tree: 스플레이 트리
 sprague grundy: 스프라그-그런디 정리
+stack: 스택
 stoer wagner: 스토어-바그너
 string: 문자열
 suffix array: 접미사 배열
