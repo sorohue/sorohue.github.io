@@ -12,6 +12,8 @@ cactus: 선인장
 calculus: 미적분학
 cartesian tree: 데카르트 트리
 case work: 많은 조건 분기
+centroid: 센트로이드
+centroid decomposition: 센트로이드 분할
 cht: 컨벡스 헐 트릭
 combinatorics: 조합론
 constructive: 해 구성하기
@@ -22,6 +24,7 @@ deque trick: 덱 트릭
 dfs: 깊이 우선 탐색
 differential cryptanalysis: 차분 공격
 dijkstra: 다익스트라
+dnc: 분할 정복
 dp: DP
 duality: 쌍대성
 egcd: 확장 유클리드 호제법
