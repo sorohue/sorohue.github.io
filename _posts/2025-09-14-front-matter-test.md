@@ -4,7 +4,7 @@ description: sorohue's PS blog
 date: 2025-09-14T09:23:38.455Z
 preview: /img/avatar.png
 tags:
-	- etc
+    - etc
 categories: [ETC, test]
 draft: false
 ---
