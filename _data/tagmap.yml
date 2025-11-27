@@ -29,6 +29,7 @@ dp: DP
 duality: 쌍대성
 egcd: 확장 유클리드 호제법
 etc: 기타
+ett: 오일러 투어 테크닉
 euler characteristic: 오일러 지표 χ
 fft: FFT
 flow: 플로우
@@ -39,6 +40,7 @@ geometry: 기하학
 geometry hyper: 고차원 기하학
 graphs: 그래프 이론
 greedy: 그리디
+hall: 홀의 결혼 정리
 implementation: 구현
 inclusion and exclusion: 포함 배제 원리
 kmp: KMP
