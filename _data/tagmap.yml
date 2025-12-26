@@ -31,6 +31,7 @@ egcd: 확장 유클리드 호제법
 etc: 기타
 ett: 오일러 투어 테크닉
 euler characteristic: 오일러 지표 χ
+euler phi: 오일러 피 함수
 fft: FFT
 flow: 플로우
 functional graph: 함수형 그래프
