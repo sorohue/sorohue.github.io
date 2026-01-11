@@ -8,17 +8,25 @@ layout: page
   {% for t in site.tags %}
     {% assign tags = tags | push: t[0] %}
   {% endfor %}
+  
+  {% assign pair_tags = "" | split: "" %}
+  {% for t in tags %}
+    {% if page.lang == "ko-KR" or site.lang == "ko-KR" or html.lang == "ko-KR" %}
+      {% assign trans = site.data.tagmap[t] | default: t %} 
+    {% else %}
+      {% assign trans = t %}
+    {% endif %}
+    {% assign pair = trans | append: "|||" | append: t %}
+    {% assign pair_tags = pair_tags | push : pair %}
+  {% endfor %}
 
-  {% assign sorted_tags = tags | sort_natural %}
-
-  {% for t in sorted_tags %}
-    
+  {% assign pair_sorted = pair_tags | sort_natural %}
+  
+  {% for p in pair_sorted %}
     <div>
-      {% if page.lang == "ko-KR" or site.lang == "ko-KR" or html.lang == "ko-KR" %}
-        {% assign label = site.data.tagmap[t] | default: t %}
-      {% else %}
-        {% assign label = t %}
-      {% endif %}
+      {% assign parts = p | split: "|||" %}
+      {% assign label = parts[0] %}
+      {% assign t = parts[1] %}
       <a class="tag" href="{{ t | slugify | url_encode | prepend: '/tags/' | append: '/' | relative_url }}">
         {{ label -}}
         <span class="text-muted">{{ site.tags[t].size }}</span>
