@@ -92,6 +92,7 @@ ternary search: 삼분 탐색
 topological sorting: 위상 정렬
 tree compression: 트리 압축
 tree dp: 트리 DP
+tree isomorphism: 트리 동형 사상
 tree set: 정렬된 셋
 trees: 트리
 trie: 트라이
