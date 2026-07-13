@@ -35,6 +35,10 @@ OP랑 2화를 지우고 난이도 커브를 보았을 때 초반이 상당히 �
 
 ## 8화. 청춘 콤플렉스
 
+<p align="center">
+    <iframe width="315" height="315" src="https://www.youtube.com/embed/7FDRQifEMUQ?si=p7sTJQawRrY4mVnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
+
 콜포태에 3문제 제출했는데 얘만 살아남았습니다. 많은 분이 막혀주셔서 스릴있었습니다.
 
 문제를 만들 때 컨셉을 먼저 잡는 편입니다. 대충 랜덤 애니 OP 플레이리스트 틀어놓고 꽂히는 제목이 나오면 거기다 내용을 끼워맞추는 식입니다. 얘는 *콤플렉스* 보고 아 복소수 문제 내야지 하고 뚝딱 만들었습니다. 결과적으로는 규칙 설명을 복소수로 하면 콜포태에서 썰릴 것 같아서 그냥 화살표로 설명하게 됐습니다.
