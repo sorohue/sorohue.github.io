@@ -28,8 +28,8 @@ toc_sticky: "true"
 OP랑 2화를 지우고 난이도 커브를 보았을 때 초반이 상당히 가팔라서 난이도 중화용 문제를 끼워넣어야 한다는 대장님의 지시에 따라 적당히 쉬운 문제 하나 쪄봤습니다. 문제 아이디어 있으면 DM으로 주시라고 하셨는데 그냥 안 뽑히면 버릴 심산으로 대회 서버에 무단 투기했습니다.
 
 <div style="display:flex; justify-content:center; align-items:center; gap:12px; width:100%;">
-  <img src="/assets/img/2026-07-13-animecup3rd/02cap1.png" height="250">
-  <img src="/assets/img/2026-07-13-animecup3rd/02cap2.png" height="250">
+  <img src="/assets/img/2026-07-13-animecup3rd/02cap1.png" alt="2화 캡처 1" height="250">
+  <img src="/assets/img/2026-07-13-animecup3rd/02cap2.png" alt="2화 캡처 2" height="250">
 </div>
 
 아무튼 뽑혔죠 굿
@@ -65,9 +65,9 @@ OP랑 2화를 지우고 난이도 커브를 보았을 때 초반이 상당히 �
 그래서 음 쉽네 하고 콜포태에 이거 실4임 하고 던졌는데 출제 서버에서 N달 동안 두드려 맞고 계속 위치가 뒤로 밀리더니 8화까지 밀려났습니다. 본 대회에서는 만점자가 안 나온 ED를 제외한 모든 문제 중에 가장 늦게 풀렸습니다. ㅇㄴ 이게 말이 되나 ㄱ-
 
 <div style="display:flex; justify-content:center; align-items:center; gap:12px; width:100%;">
-  <img src="/assets/img/2026-07-13-animecup3rd/08cap1.png" height="250">
-  <img src="/assets/img/2026-07-13-animecup3rd/08cap2.png" height="250">
-  <img src="/assets/img/2026-07-13-animecup3rd/08cap3.png" height="250">
+  <img src="/assets/img/2026-07-13-animecup3rd/08cap1.png" alt="8화 캡처 1" height="250">
+  <img src="/assets/img/2026-07-13-animecup3rd/08cap2.png" alt="8화 캡처 2" height="250">
+  <img src="/assets/img/2026-07-13-animecup3rd/08cap3.png" alt="8화 캡처 3" height="250">
 </div>
 
 운영은 따로 관여한 건 없고 그냥 드러누워 있다가 대장님이 뭐 물어보시면 :chino_drunk2: 하나만 턱 날려서 속 좀 긁어드리고 육참골단당하고 그랬습니다.
