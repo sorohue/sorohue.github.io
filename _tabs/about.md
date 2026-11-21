@@ -5,7 +5,7 @@ order: 4
 ---
 
 ## sorohue
-입니다. PS를 공부합니다.
+입니다.
 
 * 세종과학예술영재학교 8기 졸업생입니다.
 * 서울대학교 컴퓨터공학부 25학번 재학생입니다.
@@ -14,7 +14,9 @@ order: 4
   * '23 1차 은상, 2차 장려상
   * '24 1차 은상, 2차 금상
 * 2025 UCPC에서 팀명 *공백공백으로 시작하거나 끝날 수 없습니다마침표공백* 으로 참가해 예선 3위, 본선 6위로 **3등상** 수상했습니다.
-* [Codeforces](https://codeforces.com/profile/sorohue) Max rating 기준 <span style="color:#b044e0">**Candidate Master**</span> (2019) 입니다.
+* 2025 ICPC 서울 리저널에서 팀명 *ThirdHighSchool*로 참가해 전체 8위/국내 5위로 **은상** 수상했습니다.
+* **2026 ICPC 서울 리저널에서 팀명 *TrickcalCrabQuomo*로 참가해 전체 3위/국내 2위로 금상 수상했습니다.**
+* [Codeforces](https://codeforces.com/profile/sorohue) Max rating 기준 <span style="color:#ff0000">**Grandmaster**</span> (2407) 입니다.
 * [solved.ac](https://solved.ac/profile/sorohue) <span style="color:#b044e0">**Master**</span> 입니다.
 
 ## 여기 뭐하는 덴가요
