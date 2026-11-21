@@ -101,4 +101,5 @@ trees: 트리
 trie: 트라이
 two pointer: 투 포인터
 union find: 분리 집합
+xor basis: XOR 기저 GF(2)
 z: Z
